@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y2r-Vh-Kjk"/>
+                        <viewControllerLayoutGuide type="bottom" id="jdS-IC-BXx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nba_logo_d2617165" translatesAutoresizingMaskIntoConstraints="NO" id="91d-rx-cC4">
+                                <rect key="frame" x="0.0" y="20" width="320" height="410"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sx8-cV-aI7">
+                                <rect key="frame" x="20" y="20" width="280" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="3Vv-yg-wg3"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="NBA Random Team">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-CondensedBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEz-Ln-T4E">
+                                <rect key="frame" x="5" y="438" width="123" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="8N1-eo-Omk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Random">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="randomTeam:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2b4-iw-P2Y"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vP-yT-Po7">
+                                <rect key="frame" x="20" y="161" width="280" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="6wQ-Fr-y0D"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Team4">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="19" name="HelveticaNeue-CondensedBold"/>
+                                            <font key="NSOriginalFont" size="19" name="HelveticaNeue-CondensedBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9B-mV-k0M">
+                                <rect key="frame" x="20" y="201" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Team1">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue-CondensedBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6lC-Oi-YFx">
+                                <rect key="frame" x="20" y="240" width="280" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="team2">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue-CondensedBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BN4-ok-Bvc">
+                                <rect key="frame" x="20" y="282" width="280" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="team3">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-CondensedBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39c-zr-XyP">
+                                <rect key="frame" x="200" y="438" width="100" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="nN8-eG-Rml"/>
+                                </constraints>
+                                <state key="normal" title="Reset Teams">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9VJ-6m-vv3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="91d-rx-cC4" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="20" symbolic="YES" id="2eY-Vi-clg"/>
+                            <constraint firstItem="91d-rx-cC4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="560-kO-QW0"/>
+                            <constraint firstItem="6vP-yT-Po7" firstAttribute="trailing" secondItem="v9B-mV-k0M" secondAttribute="trailing" id="5Cv-hH-u2e"/>
+                            <constraint firstItem="6lC-Oi-YFx" firstAttribute="trailing" secondItem="BN4-ok-Bvc" secondAttribute="trailing" id="5vC-FB-iTs"/>
+                            <constraint firstItem="6lC-Oi-YFx" firstAttribute="centerX" secondItem="91d-rx-cC4" secondAttribute="centerX" id="DCm-rI-CjW"/>
+                            <constraint firstItem="v9B-mV-k0M" firstAttribute="top" secondItem="6vP-yT-Po7" secondAttribute="bottom" constant="13" id="GYn-zz-PWa"/>
+                            <constraint firstItem="6lC-Oi-YFx" firstAttribute="leading" secondItem="BN4-ok-Bvc" secondAttribute="leading" id="M0x-It-8pb"/>
+                            <constraint firstItem="6vP-yT-Po7" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="161" id="Od3-rr-1r2"/>
+                            <constraint firstItem="lEz-Ln-T4E" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="5" id="QNI-k4-gfU"/>
+                            <constraint firstItem="sx8-cV-aI7" firstAttribute="trailing" secondItem="6vP-yT-Po7" secondAttribute="trailing" id="Qod-t9-oJc"/>
+                            <constraint firstItem="jdS-IC-BXx" firstAttribute="top" secondItem="lEz-Ln-T4E" secondAttribute="bottom" constant="6" id="R7h-to-Sco"/>
+                            <constraint firstItem="v9B-mV-k0M" firstAttribute="trailing" secondItem="6lC-Oi-YFx" secondAttribute="trailing" id="Wz9-JG-Q0a"/>
+                            <constraint firstItem="6lC-Oi-YFx" firstAttribute="leading" secondItem="v9B-mV-k0M" secondAttribute="leading" id="ZAN-pH-Msv"/>
+                            <constraint firstItem="6vP-yT-Po7" firstAttribute="leading" secondItem="sx8-cV-aI7" secondAttribute="leading" id="cbm-2X-ax4"/>
+                            <constraint firstItem="6lC-Oi-YFx" firstAttribute="top" secondItem="v9B-mV-k0M" secondAttribute="bottom" constant="18" id="dyB-Q5-U3e"/>
+                            <constraint firstItem="lEz-Ln-T4E" firstAttribute="bottom" secondItem="39c-zr-XyP" secondAttribute="bottom" id="gMj-3s-9rI"/>
+                            <constraint firstItem="v9B-mV-k0M" firstAttribute="leading" secondItem="6vP-yT-Po7" secondAttribute="leading" id="gOk-id-DrZ"/>
+                            <constraint firstItem="BN4-ok-Bvc" firstAttribute="top" secondItem="6lC-Oi-YFx" secondAttribute="bottom" constant="24" id="lKJ-IY-RB3"/>
+                            <constraint firstItem="39c-zr-XyP" firstAttribute="leading" secondItem="lEz-Ln-T4E" secondAttribute="trailing" constant="72" id="nPK-tt-Zwc"/>
+                            <constraint firstAttribute="trailing" secondItem="sx8-cV-aI7" secondAttribute="trailing" constant="20" symbolic="YES" id="nUE-SV-USp"/>
+                            <constraint firstItem="sx8-cV-aI7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="pwz-pK-P34"/>
+                            <constraint firstItem="BN4-ok-Bvc" firstAttribute="trailing" secondItem="39c-zr-XyP" secondAttribute="trailing" id="uhO-f2-dSE"/>
+                            <constraint firstItem="lEz-Ln-T4E" firstAttribute="top" secondItem="91d-rx-cC4" secondAttribute="bottom" constant="8" symbolic="YES" id="v7T-8l-0gT"/>
+                            <constraint firstItem="39c-zr-XyP" firstAttribute="top" secondItem="91d-rx-cC4" secondAttribute="bottom" constant="8" symbolic="YES" id="zDs-ZV-1l9"/>
+                            <constraint firstItem="91d-rx-cC4" firstAttribute="top" secondItem="sx8-cV-aI7" secondAttribute="top" id="zcz-u2-GeR"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="team1" destination="v9B-mV-k0M" id="QVh-XC-7wW"/>
+                        <outlet property="team2" destination="6lC-Oi-YFx" id="vD5-iS-zYu"/>
+                        <outlet property="team3" destination="BN4-ok-Bvc" id="aoT-SI-hbl"/>
+                        <outlet property="team4" destination="6vP-yT-Po7" id="ryO-H9-GAU"/>
+                        <outlet property="view" destination="kh9-bI-dsS" id="nMi-X1-heJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="43" y="110"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nba_logo_d2617165" width="296" height="450"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

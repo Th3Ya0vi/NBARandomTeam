@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D848F7F4184AB30900C6B6DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D848F7F3184AB30900C6B6DC /* Foundation.framework */; };
+		D848F7F6184AB30900C6B6DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D848F7F5184AB30900C6B6DC /* CoreGraphics.framework */; };
+		D848F7F8184AB30900C6B6DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D848F7F7184AB30900C6B6DC /* UIKit.framework */; };
+		D848F7FE184AB30900C6B6DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D848F7FC184AB30900C6B6DC /* InfoPlist.strings */; };
+		D848F800184AB30900C6B6DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D848F7FF184AB30900C6B6DC /* main.m */; };
+		D848F804184AB30900C6B6DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D848F803184AB30900C6B6DC /* AppDelegate.m */; };
+		D848F807184AB30900C6B6DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D848F805184AB30900C6B6DC /* Main.storyboard */; };
+		D848F80A184AB30900C6B6DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D848F809184AB30900C6B6DC /* ViewController.m */; };
+		D848F80C184AB30900C6B6DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D848F80B184AB30900C6B6DC /* Images.xcassets */; };
+		D848F813184AB30900C6B6DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D848F812184AB30900C6B6DC /* XCTest.framework */; };
+		D848F814184AB30900C6B6DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D848F7F3184AB30900C6B6DC /* Foundation.framework */; };
+		D848F815184AB30900C6B6DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D848F7F7184AB30900C6B6DC /* UIKit.framework */; };
+		D848F81D184AB30900C6B6DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D848F81B184AB30900C6B6DC /* InfoPlist.strings */; };
+		D848F81F184AB30900C6B6DC /* NBARandomTeamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D848F81E184AB30900C6B6DC /* NBARandomTeamTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D848F816184AB30900C6B6DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D848F7E8184AB30900C6B6DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D848F7EF184AB30900C6B6DC;
+			remoteInfo = NBARandomTeam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D848F7F0184AB30900C6B6DC /* NBARandomTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBARandomTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D848F7F3184AB30900C6B6DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D848F7F5184AB30900C6B6DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D848F7F7184AB30900C6B6DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D848F7FB184AB30900C6B6DC /* NBARandomTeam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NBARandomTeam-Info.plist"; sourceTree = "<group>"; };
+		D848F7FD184AB30900C6B6DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D848F7FF184AB30900C6B6DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D848F801184AB30900C6B6DC /* NBARandomTeam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NBARandomTeam-Prefix.pch"; sourceTree = "<group>"; };
+		D848F802184AB30900C6B6DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D848F803184AB30900C6B6DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D848F806184AB30900C6B6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D848F808184AB30900C6B6DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D848F809184AB30900C6B6DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D848F80B184AB30900C6B6DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D848F811184AB30900C6B6DC /* NBARandomTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBARandomTeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D848F812184AB30900C6B6DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D848F81A184AB30900C6B6DC /* NBARandomTeamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NBARandomTeamTests-Info.plist"; sourceTree = "<group>"; };
+		D848F81C184AB30900C6B6DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D848F81E184AB30900C6B6DC /* NBARandomTeamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBARandomTeamTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D848F7ED184AB30900C6B6DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848F7F6184AB30900C6B6DC /* CoreGraphics.framework in Frameworks */,
+				D848F7F8184AB30900C6B6DC /* UIKit.framework in Frameworks */,
+				D848F7F4184AB30900C6B6DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D848F80E184AB30900C6B6DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848F813184AB30900C6B6DC /* XCTest.framework in Frameworks */,
+				D848F815184AB30900C6B6DC /* UIKit.framework in Frameworks */,
+				D848F814184AB30900C6B6DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D848F7E7184AB30900C6B6DC = {
+			isa = PBXGroup;
+			children = (
+				D848F7F9184AB30900C6B6DC /* NBARandomTeam */,
+				D848F818184AB30900C6B6DC /* NBARandomTeamTests */,
+				D848F7F2184AB30900C6B6DC /* Frameworks */,
+				D848F7F1184AB30900C6B6DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D848F7F1184AB30900C6B6DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D848F7F0184AB30900C6B6DC /* NBARandomTeam.app */,
+				D848F811184AB30900C6B6DC /* NBARandomTeamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D848F7F2184AB30900C6B6DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D848F7F3184AB30900C6B6DC /* Foundation.framework */,
+				D848F7F5184AB30900C6B6DC /* CoreGraphics.framework */,
+				D848F7F7184AB30900C6B6DC /* UIKit.framework */,
+				D848F812184AB30900C6B6DC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D848F7F9184AB30900C6B6DC /* NBARandomTeam */ = {
+			isa = PBXGroup;
+			children = (
+				D848F802184AB30900C6B6DC /* AppDelegate.h */,
+				D848F803184AB30900C6B6DC /* AppDelegate.m */,
+				D848F805184AB30900C6B6DC /* Main.storyboard */,
+				D848F808184AB30900C6B6DC /* ViewController.h */,
+				D848F809184AB30900C6B6DC /* ViewController.m */,
+				D848F80B184AB30900C6B6DC /* Images.xcassets */,
+				D848F7FA184AB30900C6B6DC /* Supporting Files */,
+			);
+			path = NBARandomTeam;
+			sourceTree = "<group>";
+		};
+		D848F7FA184AB30900C6B6DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D848F7FB184AB30900C6B6DC /* NBARandomTeam-Info.plist */,
+				D848F7FC184AB30900C6B6DC /* InfoPlist.strings */,
+				D848F7FF184AB30900C6B6DC /* main.m */,
+				D848F801184AB30900C6B6DC /* NBARandomTeam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D848F818184AB30900C6B6DC /* NBARandomTeamTests */ = {
+			isa = PBXGroup;
+			children = (
+				D848F81E184AB30900C6B6DC /* NBARandomTeamTests.m */,
+				D848F819184AB30900C6B6DC /* Supporting Files */,
+			);
+			path = NBARandomTeamTests;
+			sourceTree = "<group>";
+		};
+		D848F819184AB30900C6B6DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D848F81A184AB30900C6B6DC /* NBARandomTeamTests-Info.plist */,
+				D848F81B184AB30900C6B6DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D848F7EF184AB30900C6B6DC /* NBARandomTeam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D848F822184AB30900C6B6DC /* Build configuration list for PBXNativeTarget "NBARandomTeam" */;
+			buildPhases = (
+				D848F7EC184AB30900C6B6DC /* Sources */,
+				D848F7ED184AB30900C6B6DC /* Frameworks */,
+				D848F7EE184AB30900C6B6DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBARandomTeam;
+			productName = NBARandomTeam;
+			productReference = D848F7F0184AB30900C6B6DC /* NBARandomTeam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D848F810184AB30900C6B6DC /* NBARandomTeamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D848F825184AB30900C6B6DC /* Build configuration list for PBXNativeTarget "NBARandomTeamTests" */;
+			buildPhases = (
+				D848F80D184AB30900C6B6DC /* Sources */,
+				D848F80E184AB30900C6B6DC /* Frameworks */,
+				D848F80F184AB30900C6B6DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D848F817184AB30900C6B6DC /* PBXTargetDependency */,
+			);
+			name = NBARandomTeamTests;
+			productName = NBARandomTeamTests;
+			productReference = D848F811184AB30900C6B6DC /* NBARandomTeamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D848F7E8184AB30900C6B6DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Mike Gazdich";
+				TargetAttributes = {
+					D848F7EF184AB30900C6B6DC = {
+						DevelopmentTeam = 4YCR2BLXKU;
+					};
+					D848F810184AB30900C6B6DC = {
+						TestTargetID = D848F7EF184AB30900C6B6DC;
+					};
+				};
+			};
+			buildConfigurationList = D848F7EB184AB30900C6B6DC /* Build configuration list for PBXProject "NBARandomTeam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D848F7E7184AB30900C6B6DC;
+			productRefGroup = D848F7F1184AB30900C6B6DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D848F7EF184AB30900C6B6DC /* NBARandomTeam */,
+				D848F810184AB30900C6B6DC /* NBARandomTeamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D848F7EE184AB30900C6B6DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848F80C184AB30900C6B6DC /* Images.xcassets in Resources */,
+				D848F7FE184AB30900C6B6DC /* InfoPlist.strings in Resources */,
+				D848F807184AB30900C6B6DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D848F80F184AB30900C6B6DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848F81D184AB30900C6B6DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D848F7EC184AB30900C6B6DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848F80A184AB30900C6B6DC /* ViewController.m in Sources */,
+				D848F804184AB30900C6B6DC /* AppDelegate.m in Sources */,
+				D848F800184AB30900C6B6DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D848F80D184AB30900C6B6DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848F81F184AB30900C6B6DC /* NBARandomTeamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D848F817184AB30900C6B6DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D848F7EF184AB30900C6B6DC /* NBARandomTeam */;
+			targetProxy = D848F816184AB30900C6B6DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D848F7FC184AB30900C6B6DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D848F7FD184AB30900C6B6DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D848F805184AB30900C6B6DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D848F806184AB30900C6B6DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D848F81B184AB30900C6B6DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D848F81C184AB30900C6B6DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D848F820184AB30900C6B6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D848F821184AB30900C6B6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D848F823184AB30900C6B6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NBARandomTeam/NBARandomTeam-Prefix.pch";
+				INFOPLIST_FILE = "NBARandomTeam/NBARandomTeam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D848F824184AB30900C6B6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NBARandomTeam/NBARandomTeam-Prefix.pch";
+				INFOPLIST_FILE = "NBARandomTeam/NBARandomTeam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D848F826184AB30900C6B6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NBARandomTeam.app/NBARandomTeam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NBARandomTeam/NBARandomTeam-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NBARandomTeamTests/NBARandomTeamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D848F827184AB30900C6B6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NBARandomTeam.app/NBARandomTeam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NBARandomTeam/NBARandomTeam-Prefix.pch";
+				INFOPLIST_FILE = "NBARandomTeamTests/NBARandomTeamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D848F7EB184AB30900C6B6DC /* Build configuration list for PBXProject "NBARandomTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D848F820184AB30900C6B6DC /* Debug */,
+				D848F821184AB30900C6B6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D848F822184AB30900C6B6DC /* Build configuration list for PBXNativeTarget "NBARandomTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D848F823184AB30900C6B6DC /* Debug */,
+				D848F824184AB30900C6B6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D848F825184AB30900C6B6DC /* Build configuration list for PBXNativeTarget "NBARandomTeamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D848F826184AB30900C6B6DC /* Debug */,
+				D848F827184AB30900C6B6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D848F7E8184AB30900C6B6DC /* Project object */;
+}
